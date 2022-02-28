@@ -37,7 +37,7 @@ def hello_world():
 
 @app.route('/Update/')
 def Update():
-    alltodo = Todo.query.all
+    #alltodo = Todo.query.all
     return "Welcome to product"
 @app.route('/Delete/<int:sno>')
 def Delete(sno):
